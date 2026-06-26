@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960.00" height="560.00" viewBox="0 0 960.00 560.00">
+<rect width="100%" height="100%" fill="#FAFAFA"/>
+<text x="40" y="45" font-family="Arial" font-size="24" font-weight="700" fill="#1F2937">Hockey Shot Timeline</text>
+<text x="40" y="75" font-family="Arial" font-size="16" fill="#4B5563">Total score: 77.10 / Goal: right / Release frame: 5</text>
+<rect x="80.00" y="110.00" width="102.50" height="330.00" fill="#E8EEF9" opacity="0.55"/>
+<rect x="182.50" y="110.00" width="102.50" height="330.00" fill="#E8EEF9" opacity="0.55"/>
+<rect x="285.00" y="110.00" width="102.50" height="330.00" fill="#FFF2CC" opacity="0.55"/>
+<rect x="387.50" y="110.00" width="102.50" height="330.00" fill="#FFF2CC" opacity="0.55"/>
+<rect x="490.00" y="110.00" width="102.50" height="330.00" fill="#FFF2CC" opacity="0.55"/>
+<rect x="592.50" y="110.00" width="102.50" height="330.00" fill="#F8D7DA" opacity="0.55"/>
+<rect x="695.00" y="110.00" width="102.50" height="330.00" fill="#E2F4EA" opacity="0.55"/>
+<rect x="797.50" y="110.00" width="102.50" height="330.00" fill="#E2F4EA" opacity="0.55"/>
+<rect x="900.00" y="110.00" width="1.00" height="330.00" fill="#E2F4EA" opacity="0.55"/>
+<line x1="80.00" y1="110.00" x2="80.00" y2="440.00" stroke="#6B7280"/>
+<line x1="80.00" y1="440.00" x2="900.00" y2="440.00" stroke="#6B7280"/>
+<line x1="592.50" y1="100.00" x2="592.50" y2="440.00" stroke="#DC2626" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="600.50" y="94.00" font-family="Arial" font-size="13" fill="#DC2626">release</text>
+<polyline fill="none" stroke="#2563EB" stroke-width="3" points="80.00,440.00 182.50,367.25 285.00,300.55 387.50,239.06 490.00,178.39 592.50,110.00 695.00,162.38 797.50,230.46 900.00,285.41 "/>
+<rect x="720" y="457.00" width="16" height="4" fill="#2563EB"/>
+<text x="742" y="470.00" font-family="Arial" font-size="14" fill="#374151">wrist speed</text>
+<polyline fill="none" stroke="#DC2626" stroke-width="3" points="80.00,121.45 182.50,122.42 285.00,122.70 387.50,122.77 490.00,122.43 592.50,122.03 695.00,121.44 797.50,121.19 900.00,121.19 "/>
+<rect x="720" y="479.00" width="16" height="4" fill="#DC2626"/>
+<text x="742" y="492.00" font-family="Arial" font-size="14" fill="#374151">knee angle</text>
+<polyline fill="none" stroke="#059669" stroke-width="3" points="80.00,405.07 182.50,405.07 285.00,410.04 387.50,413.33 490.00,413.22 592.50,413.33 695.00,418.74 797.50,422.28 900.00,422.28 "/>
+<rect x="720" y="501.00" width="16" height="4" fill="#059669"/>
+<text x="742" y="514.00" font-family="Arial" font-size="14" fill="#374151">torso lean</text>
+<text x="40" y="465" font-family="Arial" font-size="13" fill="#4B5563">Phases: setup / loading / release / follow-through</text>
+<text x="40" y="492" font-family="Arial" font-size="13" fill="#4B5563">Blue: wrist speed, Red: knee angle, Green: torso lean</text>
+</svg>

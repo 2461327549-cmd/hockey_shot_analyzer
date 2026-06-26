@@ -1,0 +1,30 @@
+{
+  "total_score": 77.10,
+  "goal_direction": "right",
+  "release": {
+    "frame": 5,
+    "time": 0.08
+  },
+  "scores": {
+    "knee_flexion": 9.37,
+    "weight_transfer": 100.00,
+    "stance_width": 100.00,
+    "torso_lean": 68.18,
+    "wrist_snap_timing": 100.00,
+    "follow_through": 100.00
+  },
+  "measured_values": {
+    "knee_angle_deg": 176.72,
+    "body_scale": 0.59,
+    "weight_transfer": 0.12,
+    "stance_width": 0.41,
+    "torso_lean_deg": 3.64,
+    "max_wrist_speed": 7.09,
+    "follow_through_x": 0.23,
+    "follow_through_y_drop": 0.03
+  },
+  "advice": [
+    "膝の曲がりが浅い可能性があります。セットアップからリリース前にもう少し沈み込む意識を持つとよいです。",
+    "上半身の前傾が少ない、または倒れ込みすぎている可能性があります。肩と腰のラインを安定させてください。"
+  ]
+}
