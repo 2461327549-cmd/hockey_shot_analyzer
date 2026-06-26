@@ -7,7 +7,19 @@ cd "$ROOT_DIR"
 mkdir -p build outputs/tmp
 
 echo "[1/5] Building analyzer"
-clang++ -std=c++17 -Wall -Wextra -Wpedantic src/*.cpp -o build/hockey_shot_analyzer
+if [[ -z "${CXX:-}" ]]; then
+  if command -v g++ >/dev/null 2>&1; then
+    CXX=g++
+  elif command -v clang++ >/dev/null 2>&1; then
+    CXX=clang++
+  elif command -v c++ >/dev/null 2>&1; then
+    CXX=c++
+  else
+    echo "No C++ compiler found. Install one with: sudo apt install build-essential" >&2
+    exit 1
+  fi
+fi
+"$CXX" -std=c++17 -Wall -Wextra -Wpedantic src/*.cpp -o build/hockey_shot_analyzer
 
 echo "[2/5] Running right-direction analysis"
 ./build/hockey_shot_analyzer \
